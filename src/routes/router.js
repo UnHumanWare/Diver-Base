@@ -6,6 +6,7 @@ import Locations from "../global/Pages/Locations";
 import Register from "../global/Pages/Register";
 import Login from "../global/Pages/Login";
 import { MapPage } from "../global/components/Map";
+import { QuoteRequest } from "../global/Pages/QuoteRequest";
 
 
 
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
             {
                 path: "Map",
                 element: <MapPage />
+            },
+            {
+                path: "QuoteRequest",
+                element: <QuoteRequest />
             }
         ]
 

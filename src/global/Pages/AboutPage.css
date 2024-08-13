@@ -48,7 +48,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 
     padding: 1rem;
     border-radius: .5rem;
@@ -79,7 +79,13 @@
     gap: 1rem;
     
 }
-.text {
+.about-text {
     margin: 0;
     padding: 2rem;
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    font-weight: bold; 
+    background-color: rgba(7, 130, 155, 0.5); 
+    padding: 10px 20px; 
+    border-radius: 10px;
 }

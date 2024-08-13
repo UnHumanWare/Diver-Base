@@ -6,6 +6,10 @@ import router from "./routes/router";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./global/components/Navbar";
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import { Footer } from "./global/components/Footer";
+
+
 
 
 
@@ -20,6 +24,7 @@ function mountReact() {
         <React.StrictMode>
             <NavBar />
             <RouterProvider router={router} />
+            <Footer />
         </React.StrictMode>
     );
 }

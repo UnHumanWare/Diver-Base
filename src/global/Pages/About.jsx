@@ -7,19 +7,19 @@ const About = () => {
     <div className="about-page-background">
 
       <div>
-        <div className="about-page-main-title">
-          <h1>About Diving World</h1>
-          <p>Diving World is a platform dedicated to promoting the best diving locations around the globe. Whether you are a beginner or an experienced diver, we have something for everyone.</p>
+        <div className="row about-page-main-title align-item-center ">
+          <h1>Tudnivalók a búvárkodásról</h1>
+          <p>A Diver Base egy olyan platform, amely a világ legjobb búvárhelyeinek népszerűsítésére jött létre. Legyen szó kezdő vagy tapasztalt búvárról, nálunk mindenki talál magának valamit.</p>
         </div>
       </div>
 
-      <div className="flex-align-start about-img-area">
+      <div className="row about-img-area align-items-center">
 
 
         <img src="/img/About/Demo_pool_diving.jpg" alt="Demo diving" />
 
 
-        <div className="text">
+        <div className="about-text col-12 col-xl-4">
           <h3>Bevezetés</h3>
 
           A búvárkodás olyan tevékenység, amely lehetővé teszi az emberek számára, hogy a víz alatt felfedezzék a tengeri világot, élvezzék a szabadság érzését és megtapasztalják a víz alatti környezet szépségeit. A búvárkodás két fő típusa létezik: a medencében és a nyílt vízen végzett búvárkodás. Mindkét forma különböző élményeket és kihívásokat kínál, ugyanakkor mindkettő alapvető ismereteket és készségeket igényel.
@@ -38,13 +38,13 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex-align-end about-img-area">
+      <div className="row flex-row flex-xl-row-reverse about-img-area align-items-center">
 
 
         <img src="/img/About/Lake-diving.jpg" alt="Lake diving" />
 
 
-        <div className='text'>
+        <div className='about-text col-12 col-xl-4'>
           <h3>Tavi Búvárkodás</h3>
 
           A tavi búvárkodás egyedülálló élményt nyújt a búvárok számára, lehetőséget adva a belvizek rejtett világának felfedezésére. A tavak különleges ökoszisztémái és változatos víz alatti tájai sokféle látnivalót kínálnak, beleértve a különböző halfajokat, vízi növényeket és esetenként mesterséges tárgyakat is. A tavi búvárkodás biztonságos és sikeres gyakorlásához alapos felkészülés és megfelelő felszerelés szükséges.
@@ -64,14 +64,14 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex-align-start about-img-area">
+      <div className="row about-img-area align-items-center">
 
 
         <img src="/img/About/coral_reef_diving.jpg" alt="Coral reef diving" />
 
 
 
-        <div className='text'>
+        <div className='about-text col-12 col-xl-4'>
           <h3>Tengerí búvárkodás</h3>
 
           A tengeri búvárkodás a nyílt vízen a korallzátonyoknál különleges és lenyűgöző tevékenység, amely lehetőséget nyújt a búvárok számára, hogy felfedezzék az óceánok egyik legszínesebb és legváltozatosabb élőhelyét. A korallzátonyok az óceáni ökoszisztémák csúcsát képviselik, és hatalmas biodiverzitással rendelkeznek, így ideális helyszínt kínálnak a tengeri élet tanulmányozására és megfigyelésére.
@@ -86,14 +86,14 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex-align-end about-img-area">
+      <div className="row flex-row flex-xl-row-reverse about-img-area align-items-center">
 
 
         <img src="/img/About/Wreck_diving_2.jpg" alt="Coral reef diving" />
 
 
 
-        <div className='text'>
+        <div className='about-text col-12 col-xl-4'>
           <h3>Roncs búvárkodás</h3>
 
           A roncs búvárkodás a nyílt vízen izgalmas és kihívásokkal teli tevékenység, amely különleges élményt nyújt a búvárok számára. Ez a merülési forma lehetőséget biztosít arra, hogy történelmi jelentőségű hajóroncsokat, repülőgép-maradványokat és más elsüllyedt objektumokat fedezzenek fel, miközben az óceán mélyén rejtőző titkokkal és kincsekkel ismerkednek meg.
@@ -114,14 +114,14 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex-align-start about-img-area">
+      <div className="row about-img-area align-items-center">
 
 
         <img src="/img/About/Cave_diving.jpg" alt="Cave diving" />
 
 
 
-        <div className='text'>
+        <div className='about-text col-12 col-xl-4'>
           <h3>Barlangi búvárkodás</h3>
 
           A barlangi búvárkodás különleges és technikailag igényes merülési forma, amely jelentős felkészültséget, szakértelmet és speciális felszerelést igényel. Ez a tevékenység lehetőséget kínál a búvároknak, hogy felfedezzék a víz alatti barlangok titokzatos és lenyűgöző világát, amely gyakran rejtett geológiai képződményekkel és különleges élővilággal büszkélkedik.
@@ -136,13 +136,13 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex-align-end about-img-area">
+      <div className="row flex-row flex-xl-row-reverse about-img-area align-items-center">
 
 
         <img src="/img/About/Ice_diving_2.jpg" alt="Ice diving" />
 
 
-        <div className='text'>
+        <div className='about-text col-12 col-xl-4'>
           <h3>Jég búvárkodás</h3>
 
           A jég búvárkodás egy különleges és technikailag igényes merülési forma, amely extrém körülmények között zajlik, és speciális felkészülést igényel. Ez a tevékenység lehetőséget nyújt a búvároknak arra, hogy felfedezzék a jeges víz alatti világot, amely különleges élővilággal és lenyűgöző jégtömbökkel várja a merész búvárokat.
@@ -157,7 +157,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex-align-start about-img-area">
+      <div className="row about-img-area align-items-center">
 
 
         <img src="/img/About/Deep_pool_diving.jpg" alt="Depp and special diving" />
@@ -167,7 +167,7 @@ const About = () => {
 
 
 
-        <div className='text'>
+        <div className='about-text col-12 col-xl-4'>
           <h3>Mélytengeri búvárkodás</h3>
 
           A mélytengeri és speciális búvárkodás olyan tevékenységek gyűjtőneve, amelyek különleges készségeket, felszerelést és felkészülést igényelnek, és amelyek lehetőséget nyújtanak a búvároknak arra, hogy a tenger mélyebb rétegeit és különleges helyszíneit fedezzék fel. Ezek a merülési formák a hagyományos sportbúvárkodástól eltérően technikai kihívásokkal és magasabb szintű veszéllyel járnak.
@@ -184,10 +184,10 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex-align-end about-img-area">
+      <div className="row about-img-area align-items-center">
 
-        <div className='text'>
-          <h1>Vaffanculo</h1>
+        <div className='about-text col-12 col-xl-4'>
+          <h1>Üdvözlünk a mélyben.</h1>
         </div>
 
         <img src="/img/About/Deep_special_diving.jpg" alt="Coral reef diving" />

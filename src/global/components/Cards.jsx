@@ -6,7 +6,7 @@ export const cardData = [
     [{
         id: 1,
         imgSrc: "/img/locations/Ausztralia/andy-bridge-b_mGf_weXgg-unsplash.jpg",
-        imgAlt: "Hajó",
+        imgAlt: "Hajós búvárkodás",
         title: "Card title 1",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
         link: "#",
@@ -35,7 +35,7 @@ export const cardData = [
 
     [{
         id: 4,
-        imgSrc: "",
+        imgSrc: "/img/locations/Belize/great-blue-hole-belize-1024x682-1.jpg",
         imgAlt: "Hajó",
         title: "Card title 1",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
@@ -44,7 +44,7 @@ export const cardData = [
     },
     {
         id: 5,
-        imgSrc: "",
+        imgSrc: "/img/locations/Belize/Belize.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 2",
         text: "This card has supporting text below as a natural lead-in to additional content.",
@@ -53,7 +53,7 @@ export const cardData = [
     },
     {
         id: 6,
-        imgSrc: "",
+        imgSrc: "/img/locations/Belize/belize-cenotes.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 3",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
@@ -65,7 +65,7 @@ export const cardData = [
 
     [{
         id: 7,
-        imgSrc: "",
+        imgSrc: "/img/locations/Indonesia/Indonézia-felülről.jpg",
         imgAlt: "Hajó",
         title: "Card title 1",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
@@ -74,7 +74,7 @@ export const cardData = [
     },
     {
         id: 8,
-        imgSrc: "",
+        imgSrc: "/img/locations/Indonesia/Indonézia-cápák.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 2",
         text: "This card has supporting text below as a natural lead-in to additional content.",
@@ -83,7 +83,7 @@ export const cardData = [
     },
     {
         id: 9,
-        imgSrc: "",
+        imgSrc: "/img/locations/Indonesia/manta-raja-ampat.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 3",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
@@ -95,7 +95,7 @@ export const cardData = [
 
     [{
         id: 10,
-        imgSrc: "",
+        imgSrc: "/img/locations/Palau/Palau-felülről.jpg",
         imgAlt: "Hajó",
         title: "Card title 1",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
@@ -104,7 +104,7 @@ export const cardData = [
     },
     {
         id: 11,
-        imgSrc: "",
+        imgSrc: "/img/locations/Palau/palau-coral-reef.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 2",
         text: "This card has supporting text below as a natural lead-in to additional content.",
@@ -113,7 +113,7 @@ export const cardData = [
     },
     {
         id: 12,
-        imgSrc: "",
+        imgSrc: "/img/locations/Palau/Hal-raj-palua.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 3",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
@@ -125,7 +125,7 @@ export const cardData = [
 
     [{
         id: 13,
-        imgSrc: "",
+        imgSrc: "/img/locations/Ecuador/galapagos-snorkel.jpg",
         imgAlt: "Hajó",
         title: "Card title 1",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
@@ -134,7 +134,7 @@ export const cardData = [
     },
     {
         id: 14,
-        imgSrc: "",
+        imgSrc: "/img/locations/Ecuador/galapagos_szigetek_seal.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 2",
         text: "This card has supporting text below as a natural lead-in to additional content.",
@@ -143,7 +143,7 @@ export const cardData = [
     },
     {
         id: 15,
-        imgSrc: "",
+        imgSrc: "/img/locations/Ecuador/Galapagos-Cliff-Kicker-Rock-3.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 3",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
@@ -155,7 +155,7 @@ export const cardData = [
 
     [{
         id: 16,
-        imgSrc: "",
+        imgSrc: "/img/locations/Fülöp-szigetek/Fulop-szigetek.jpg",
         imgAlt: "Hajó",
         title: "Card title 1",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
@@ -164,7 +164,7 @@ export const cardData = [
     },
     {
         id: 17,
-        imgSrc: "",
+        imgSrc: "/img/locations/Fülöp-szigetek/tubbataha-reef-fulop.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 2",
         text: "This card has supporting text below as a natural lead-in to additional content.",
@@ -173,7 +173,7 @@ export const cardData = [
     },
     {
         id: 18,
-        imgSrc: "",
+        imgSrc: "/img/locations/Fülöp-szigetek/Fulop-shark.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 3",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
@@ -185,7 +185,7 @@ export const cardData = [
 
     [{
         id: 19,
-        imgSrc: "",
+        imgSrc: "/img/locations/Costa Rica/cocos-island.jpg",
         imgAlt: "Hajó",
         title: "Card title 1",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
@@ -194,7 +194,7 @@ export const cardData = [
     },
     {
         id: 20,
-        imgSrc: "",
+        imgSrc: "/img/locations/Costa Rica/Fishes.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 2",
         text: "This card has supporting text below as a natural lead-in to additional content.",
@@ -203,7 +203,7 @@ export const cardData = [
     },
     {
         id: 21,
-        imgSrc: "",
+        imgSrc: "/img/locations/Costa Rica/Hammer-heads.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 3",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
@@ -215,7 +215,7 @@ export const cardData = [
 
     [{
         id: 22,
-        imgSrc: "",
+        imgSrc: "/img/locations/Malajzia/buvartura-malajzia-sipadan.jpg",
         imgAlt: "Hajó",
         title: "Card title 1",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
@@ -224,7 +224,7 @@ export const cardData = [
     },
     {
         id: 23,
-        imgSrc: "",
+        imgSrc: "/img/locations/Malajzia/Spinadan-island.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 2",
         text: "This card has supporting text below as a natural lead-in to additional content.",
@@ -233,7 +233,7 @@ export const cardData = [
     },
     {
         id: 24,
-        imgSrc: "",
+        imgSrc: "/img/locations/Malajzia/Sipadan.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 3",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
@@ -245,7 +245,7 @@ export const cardData = [
 
     [{
         id: 25,
-        imgSrc: "",
+        imgSrc: "/img/locations/Egypt/Egypt-coral.jpg",
         imgAlt: "Hajó",
         title: "Card title 1",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
@@ -254,7 +254,7 @@ export const cardData = [
     },
     {
         id: 26,
-        imgSrc: "",
+        imgSrc: "/img/locations/Egypt/Ship.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 2",
         text: "This card has supporting text below as a natural lead-in to additional content.",
@@ -263,7 +263,7 @@ export const cardData = [
     },
     {
         id: 27,
-        imgSrc: "",
+        imgSrc: "/img/locations/Egypt/Wreck-dive.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 3",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
@@ -276,7 +276,7 @@ export const cardData = [
 
     [{
         id: 28,
-        imgSrc: "",
+        imgSrc: "/img/locations/Komodo/HD-wallpaper-komodo-national-park-2021-indonesia.jpg",
         imgAlt: "Hajó",
         title: "Card title 1",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
@@ -285,7 +285,7 @@ export const cardData = [
     },
     {
         id: 29,
-        imgSrc: "",
+        imgSrc: "/img/locations/Komodo/Manta-ray.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 2",
         text: "This card has supporting text below as a natural lead-in to additional content.",
@@ -294,7 +294,7 @@ export const cardData = [
     },
     {
         id: 30,
-        imgSrc: "",
+        imgSrc: "/img/locations/Komodo/Scuba+Diving+Komodo.jpg",
         imgAlt: "Coral Reef Diving",
         title: "Card title 3",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",

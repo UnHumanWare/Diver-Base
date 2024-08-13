@@ -7,8 +7,11 @@ const Home = () => {
     <div className='home-page-background'>
 
       <div className="main-title">
-        <h1>Welcome to Diving World</h1>
-        <p>Explore the best diving locations around the world!</p>
+        <h1>Üdvözlünk a Divers Basen</h1>
+        <a href="/Locations" style={{ textDecoration: 'none', color: 'inherit' }}>
+          <p>Fedezd fel a világ legjobb búvárhelyeit!</p>
+        </a>
+
       </div>
 
     </div>

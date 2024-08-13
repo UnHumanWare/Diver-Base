@@ -2,16 +2,19 @@ import React from 'react';
 import './Cards.css'
 
 
+
 export const LocCards = ({ cards }) => {
     if (!cards) {
         return <div>No cards available</div>;
     }
 
+
+
     return (
-        <div className="container custom-transparent-container">
-            <div className="row row-cols-1 row-cols-md-3 g-4">
+        <div className="custom-transparent-container">
+            <div className="row  g-4 justify-content-evenly">
                 {cards.map((card) => (
-                    <div className="col" key={card.id}>
+                    <div className="col location-col-width" key={card.id}>
                         <div className="card styled-shadow h-100">
                             <img src={card.imgSrc} className="card-img-top position-location-img" alt={card.imgAlt} />
                             <div className="card-body">
@@ -19,7 +22,8 @@ export const LocCards = ({ cards }) => {
                                 <p className="card-text">{card.text}</p>
                             </div>
                             <div className="card-footer styled-links-updates">
-                                <a href={card.link} className="card-link">Card link</a>
+                                {/*<a href={card.link} className="card-link">Card link</a>*/}
+
                                 <small className="text-muted">{card.updated}</small>
                             </div>
                         </div>
@@ -27,7 +31,6 @@ export const LocCards = ({ cards }) => {
                 ))}
             </div>
         </div>
-
     );
 };
 

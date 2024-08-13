@@ -1,32 +1,18 @@
-import React from 'react';
-import './Cards.css'
-
-
+import React, { useState } from 'react';
+import './Cards.css';
+import { Collapse } from 'react-bootstrap';
 
 export const LocCards = ({ cards }) => {
     if (!cards) {
         return <div>No cards available</div>;
     }
 
-
-
     return (
         <div className="custom-transparent-container">
-            <div className="row  g-4 justify-content-evenly">
+            <div className="row g-4 justify-content-evenly">
                 {cards.map((card) => (
                     <div className="col location-col-width" key={card.id}>
-                        <div className="card styled-shadow h-100">
-                            <img src={card.imgSrc} className="card-img-top position-location-img" alt={card.imgAlt} />
-                            <div className="card-body">
-                                <h5 className="card-title">{card.title}</h5>
-                                <p className="card-text">{card.text}</p>
-                            </div>
-                            <div className="card-footer styled-links-updates">
-                                {/*<a href={card.link} className="card-link">Card link</a>*/}
-
-                                <small className="text-muted">{card.updated}</small>
-                            </div>
-                        </div>
+                        <CardComponent card={card} />
                     </div>
                 ))}
             </div>
@@ -35,25 +21,32 @@ export const LocCards = ({ cards }) => {
 };
 
 
+const CardComponent = ({ card }) => {
+    const [open, setOpen] = useState(false);
 
+    const handleCardClick = () => {
+        setOpen(!open);
+    };
 
+    return (
+        <div className="card styled-shadow h-100" onClick={handleCardClick}>
+            <img src={card.imgSrc} className="card-img-top position-location-img" alt={card.imgAlt} />
+            <div className="card-body">
+                <h5 className="card-title">{card.title}</h5>
 
+                <Collapse in={open}>
+                    <div className="card-text">{card.text}</div>
+                </Collapse>
 
-
-{/* <div className="row row-cols-1 row-cols-md-3 g-4">
-            {cards.map((card) => (
-                <div className="col" key={card.id}>
-                    <div className="card h-100">
-                        <img src={card.imgSrc} className="card-img-top" alt={card.imgAlt} />
-                        <div className="card-body d-flex flex-column">
-                            <h5 className="card-title">{card.title}</h5>
-                            <p className="card-text">{card.text}</p>
-                        </div>
-                        <div className="card-footer">
-                            <a href={card.link} className="card-link">Card link</a>
-                            <small className="text-muted">{card.updated}</small>
-                        </div>
-                    </div>
-                </div>
-            ))}
-        </div> */}
+                {!open && (
+                    <p className="card-text">
+                        {card.text.substring(0, 100)}... { }
+                    </p>
+                )}
+            </div>
+            <div className="card-footer styled-links-updates">
+                <small className="text-muted">{card.updated}</small>
+            </div>
+        </div>
+    );
+};

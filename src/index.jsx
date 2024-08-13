@@ -8,6 +8,8 @@ import { NavBar } from "./global/components/Navbar";
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { Footer } from "./global/components/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 

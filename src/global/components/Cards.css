@@ -14,7 +14,7 @@
 .card.styled-shadow {
     background: linear-gradient(to bottom right, #f0f8ff, #d7ebf8) ;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) ;
-    border-radius: 8px ;
+    border-radius: 10px ;
     transition: transform 0.2s, box-shadow 0.2s ;
     display: flex ;
     flex-direction: column ;
